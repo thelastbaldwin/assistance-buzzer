@@ -1,5 +1,5 @@
 #ASSISTANCE BUZZER
-Two pairs of (Teensy 3.1 XBee Adapters)[https://learn.sparkfun.com/tutorials/teensy-xbee-adapter-hookup-guide]. 
+Two pairs of [Teensy 3.1 XBee Adapters](https://learn.sparkfun.com/tutorials/teensy-xbee-adapter-hookup-guide). 
 One adapter has a button attached to it and is responsible for sending a signal to the other board. The other
 adapter has a buzzer attached to it. When the button is depressed on the signaler, it begins sending 0's and 1's
 over serial. The buzzer buzzes when it receives 1's and does nothing otherwise. 

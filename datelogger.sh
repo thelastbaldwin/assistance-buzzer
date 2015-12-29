@@ -11,9 +11,9 @@ do
     read  -n 1 key
     timestamp=$(date +"%m/%d/%y %H:%M:%S")
     if [ "$key" = 'a' ]; then
-        echo "on $timestamp" >> output.txt
+        echo "on $timestamp" >> /media/PI/output.txt
     elif [ "$key" = 'b' ]; then
-        echo "off $timestamp" >> output.txt
+        echo "off $timestamp" >> /media/PI/output.txt
     else
         break
     fi
